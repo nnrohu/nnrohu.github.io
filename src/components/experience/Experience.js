@@ -1,7 +1,7 @@
-import './experience.css';
+import "./Experience.css";
 
-import { BsPatchCheckFill } from 'react-icons/bs';
-import React from 'react';
+import { BsPatchCheckFill } from "react-icons/bs";
+import React from "react";
 
 function Experience() {
   return (
@@ -17,7 +17,7 @@ function Experience() {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>React Native</h4>
-                <small className='text-light'>3+ Years Experienced</small>
+                <small className='text-light'>4+ Years Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
