@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import emailjs from "@emailjs/browser";
 import { Toaster, toast } from "sonner";
 import { motion } from "framer-motion";
 
@@ -28,7 +27,7 @@ export default function Form() {
     formState: { errors },
   } = useForm();
 
-  const sendEmail = (params) => {
+  const sendEmail = () => {
     const toastId = toast.loading("Sending your message, please wait...");
 
     toast.info(
