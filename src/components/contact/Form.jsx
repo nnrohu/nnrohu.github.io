@@ -30,7 +30,6 @@ export default function Form() {
 
   const sendEmail = (params) => {
     const toastId = toast.loading("Sending your message, please wait...");
-    console.log(params)
     emailjs
       .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
@@ -52,9 +51,9 @@ export default function Form() {
             }
           );
         },
-        () => {
+        (error) => {
           toast.error(
-            "There was an error sending your message, please try again later!",
+            "There was an error sending your message, please try again later!" + JSON.stringify(error),
             {
               id: toastId,
             }
