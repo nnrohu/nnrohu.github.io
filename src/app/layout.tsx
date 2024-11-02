@@ -34,6 +34,7 @@ export default function RootLayout({
           "bg-background text-foreground"
         )}
       >
+        <link rel="icon" type="image/x-icon" href="/icon.png" />
         {children}
         <FireFliesBackground />
         <Sound />
