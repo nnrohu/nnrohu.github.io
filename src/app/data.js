@@ -15,7 +15,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Sign Life",
+    name: "Sing Life",
     description: "Be insured with Singlife, your trusted insurance and investment service provider in Singapore. Enquire now to learn more!",
     date: "2023-09-10",
     demoLink: "https://singlife.com/en",
@@ -41,7 +41,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/Rohit_Kumar.pdf",
+    link: "/Rohit_Resume.pdf",
     icon: "resume",
     newTab: true,
   },
