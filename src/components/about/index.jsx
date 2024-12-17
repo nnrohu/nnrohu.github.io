@@ -15,8 +15,9 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript/Typescript casting the core of my enchantments. I wield frameworks like React.js and Next.js with
+            My journey in <strong>Frontend Development</strong> is powered by an array of mystical
+            tools and languages, with <strong>JavaScript/Typescript</strong> casting the core of my enchantments. 
+            I wield frameworks like <strong>React.js, Next.js and React Native</strong> with
             precision, crafting seamless portals (websites) that connect realms
             (users) across the digital universe. The ancient arts of the
             Jamstack empower me to create fast, secure, and dynamic experiences,
@@ -30,7 +31,7 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            5+{" "}
+            6+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
@@ -58,7 +59,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=babel,css,figma,firebase,git,github,graphql,html,js,mysql,netlify,nextjs,nodejs,npm,react,redux,tailwind,threejs,vercel,vite,vscode,yarn`}
+            src={`https://skillicons.dev/icons?i=babel,css,figma,androidstudio,appwrite,firebase,git,github,githubactions,gitlab,graphql,html,js,mysql,netlify,nextjs,nodejs,npm,react,redux,tailwind,threejs,docker,vercel,vite,vscode,yarn`}
             alt="Tech Stacks"
             loading="lazy"
           />

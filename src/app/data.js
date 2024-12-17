@@ -20,6 +20,13 @@ export const projectsData = [
     date: "2023-09-10",
     demoLink: "https://singlife.com/en",
   },
+  {
+    id: 4,
+    name: "New Relic",
+    description: "Enhanced observability platform features, focusing on integration and seamless data visualization.",
+    date: "2024-12-10",
+    demoLink: "https://newrelic.com/io",
+  },
 ];
 
 export const BtnList = [
